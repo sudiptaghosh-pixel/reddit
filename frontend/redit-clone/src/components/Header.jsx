@@ -34,7 +34,11 @@ const Header = ({ onLoginClick }) => {
                 + Create Post
               </button>
 
-              <img src={user.avatar} className="w-8 h-8 rounded-full" />
+              {/* <img src={user.avatar} className="w-8 h-8 rounded-full" /> */}
+              <div className="w-8 h-8 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 flex items-center justify-center text-white font-semibold uppercase">
+  {user.username?.charAt(0)}
+</div>
+{user.username}
 
               <button
                 onClick={logout}

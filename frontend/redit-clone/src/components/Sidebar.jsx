@@ -1,7 +1,10 @@
 const Sidebar = () => {
   return (
     <div className="w-64 bg-[#0f1a1c] border-r border-gray-800 p-4">
-      <h1 className="text-xl font-bold mb-6">ThreadLy</h1>
+      <div className="flex items-center mb-6">
+      {/* <img src="/icon.png" alt=""  className="h-14 w-14"/> */}
+      <h1 className="text-xl font-bold">ThreadLy</h1>
+      </div>
 
       <div className="space-y-3">
         <div className="p-2 rounded-lg hover:bg-gray-800 cursor-pointer">Home</div>

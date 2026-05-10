@@ -8,7 +8,7 @@ const userSchema = new mongoose.Schema({
 
   avatar: {
     type: String,
-    default: "https://i.pravatar.cc/150",
+    // default: "https://i.pravatar.cc/150",
   },
 
   createdAt: {
